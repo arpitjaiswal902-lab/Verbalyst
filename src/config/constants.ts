@@ -36,11 +36,11 @@ export const COLORS = {
 export const FREE_QUESTIONS_LIMIT = 2;
 export const PREMIUM_PRICE = 299;
 
-export const ADMIN_EMAIL = 'YOUR_ADMIN_EMAIL@example.com'; // Replace with actual admin email
+export const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || 'YOUR_ADMIN_EMAIL@example.com'; 
 
 export const RAZORPAY_CONFIG = {
-  keyId: 'YOUR_RAZORPAY_KEY_ID', // Replace with actual Razorpay Key ID
-  keySecret: 'YOUR_RAZORPAY_KEY_SECRET' // This should be stored in backend
+  keyId: import.meta.env.VITE_RAZORPAY_KEY_ID || 'YOUR_RAZORPAY_KEY_ID',
+  keySecret: import.meta.env.VITE_RAZORPAY_KEY_SECRET || 'YOUR_RAZORPAY_KEY_SECRET' 
 };
 
-export const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'; // Replace with actual Gemini API Key
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'YOUR_GEMINI_API_KEY';

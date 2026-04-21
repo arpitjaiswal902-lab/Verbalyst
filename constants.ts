@@ -43,4 +43,4 @@ export const RAZORPAY_CONFIG = {
   keySecret: 'YOUR_RAZORPAY_KEY_SECRET' // This should be stored in backend
 };
 
-export const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'; // Replace with actual Gemini API Key
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;

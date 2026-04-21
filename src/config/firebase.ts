@@ -5,12 +5,12 @@ import { getFirestore } from 'firebase/firestore';
 // Firebase configuration
 // Replace with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+ apiKey: "AIzaSyCzvpFoVCDYcSAZFeoBoK1G-QKlmj45qco",
+  authDomain: "verbalyst-f3c23.firebaseapp.com",
+  projectId: "verbalyst-f3c23",
+  storageBucket: "verbalyst-f3c23.firebasestorage.app",
+  messagingSenderId: "232143433464",
+  appId: "1:232143433464:web:af92851c03700705ba950d"
 };
 
 // Initialize Firebase
